@@ -1,0 +1,46 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.5.0)
+    parallel (1.23.0)
+    parallel_split_test (0.10.0)
+      parallel (>= 0.5.13)
+      rspec-core (>= 3.9.0)
+    parallel_tests (4.2.1)
+      parallel
+    rake (13.0.6)
+    require_all (3.0.0)
+    rexml (3.2.5)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.2)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.3)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.5)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.1)
+    rubyzip (2.3.2)
+    selenium-webdriver (4.10.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2, < 3.0)
+      websocket (~> 1.0)
+    websocket (1.2.9)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  parallel_split_test
+  parallel_tests
+  rake
+  require_all
+  rspec
+  selenium-webdriver
+
+BUNDLED WITH
+   2.4.15
