@@ -1,8 +1,7 @@
 require 'rubygems'
 require 'selenium-webdriver'
 require 'rspec'
-require "test/unit"
-require 'rspec-steps'
+require 'faker'
 
 describe "Sample web test" do
 
