@@ -37,8 +37,8 @@ end
 			@driver.navigate.to "http://login.salesforce.com"
 			wait = Selenium::WebDriver::Wait.new(:timeout => 40)
 			sleep 10
-			@driver.find_element(:id => "username").send_keys "laksvijay07@gmail.com"
-			@driver.find_element(:id => "password").send_keys "test@123"
+			@driver.find_element(:id => "username").send_keys "soorajlearn@gmail.com"
+			@driver.find_element(:id => "password").send_keys "Password@123"
 			@driver.find_element(:id => "Login").click
 		
 
